@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Final project 3</string>
+    <color name="btn_background">#FF8C02</color>
+    <color name="btn_number">#3B3A3D</color>
 </resources>
