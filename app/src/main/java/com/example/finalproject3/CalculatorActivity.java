@@ -184,11 +184,7 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
             calculateData = calculateData+buttonText;
         }
         txtShow.setText(calculateData);
-        for(int i = 0 ; i<calculateData.length();i++){
-            if(calculateData.charAt(i)=='x'){
-                calculateData = calculateData.replace("x","*");
-            }
-        }
+        calculateData = calculateData.replace("x","*");
 
         String finalResult = getResult(calculateData);
         if(!finalResult.equals("error")){
